@@ -38,6 +38,12 @@
 
     },
     "parserOptions": {
+        "parser": "@babel/eslint-parser",
+        "babelOptions": {
+          "presets": [
+            "@babel/preset-react"
+          ]
+        },
         "sourceType": "module"
     },
     "rules": {

@@ -31,14 +31,20 @@
         "alloy",
         "alloy/react"
     ],
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "babelOptions": {
+            "presets": [
+                "@babel/preset-react"
+            ]
+        },
+        "sourceType": "module"
+    },
     "plugins": [
         "import"
     ],
     "globals": {
 
-    },
-    "parserOptions": {
-        "sourceType": "module"
     },
     "rules": {
         "radix": "off",
